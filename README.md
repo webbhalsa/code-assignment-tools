@@ -1,6 +1,7 @@
 ## Setup
 Run `` docker-compose up -d``  
 This will spin up a container running mysql on port 3309.  
+Database: dev
 Username: dev  
 Password: secret
 
