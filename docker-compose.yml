@@ -13,6 +13,4 @@ services:
 # Use this if you want to initialize the db using a init.sql on container startup.      
 #    volumes:
 #      - ./server/init.sql:/docker-entrypoint-initdb.d/init.sql
-# This will set up a mysql instance running on port 3309.
-# usr: dev
-# pwd: secret
+
