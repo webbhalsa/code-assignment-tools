@@ -10,7 +10,7 @@ services:
       MYSQL_USER: dev
       MYSQL_PASSWORD: secret
 
-# Use this if you want to initialize the db using a init.sql on container startup.      
+# Use this if you want to initialize the db using a init.sql on container startup. Replace "./server/init.sql" with the path to your init.sql.
 #    volumes:
 #      - ./server/init.sql:/docker-entrypoint-initdb.d/init.sql
 
